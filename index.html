@@ -7,6 +7,7 @@
     <title>Document</title>
   </head>
   <body>
+    <div class="clock"></div>
     <h1>Hello VS Code!</h1>
     <div class="clock"></div>
     <section>
@@ -19,10 +20,20 @@
         <a href="https://www.mozilla.org/">Mozilla homepage</a>
       </p>
     </section>
+    <button class="click-me">Click Me</button>
     <div class="calculator">
-
+      <input type="text" class="display" readonly placeholder="0" />
+      <div class="digits">
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+      </div>
+      <div class="opers">
+        <button>+</button>
+        <button>-</button>
+      </div>
+      <button class="equal">=</button>
     </div>
-    <button class="click-me"></button>
     <script src="js/index.js"></script>
   </body>
 </html>
